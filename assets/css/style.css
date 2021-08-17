@@ -3,7 +3,11 @@
   margin: 0;
   padding: 0;
 }
-
+:root{
+  --primary-color : #fce138;
+  --secondary-color: #024e76;
+  --tertiary-color: #39a6b2;
+}
 body {
   color: #39a6b2;
   font-family: Helvetica, Arial, sans-serif;
@@ -32,13 +36,13 @@ header h1 {
   font-weight: bold;
   margin: 0;
   font-size: 36px;
-  color: #fce138;
+  color: var(--primary-color);
   text-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
 
 header a {
   text-decoration: none;
-  color: #fce138;
+  color: var(--primary-color);
 }
 
 header nav {
@@ -60,8 +64,8 @@ header nav ul li a {
   text-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
 header nav ul li a:hover{
-  background: #fce138;
-  color: #024e76;
+  background: var(--primary-color);
+  color: var(--secondary-color);
   border-radius: 15px;
   text-shadow: none;
 }
@@ -72,7 +76,7 @@ header nav ul li a:hover{
 
 /* FOOTER STYLES START */
 footer {
-  background: #fce138;
+  background: var(--primary-color);
   padding: 40px 35px;
   display: flex;
   justify-content: space-between;
@@ -169,7 +173,7 @@ section {
 }
 
 .hero-form button {
-  color: #fce138;
+  color: var(--primary-color);
   background-color: #024e76;
   border: none;
   padding: 10px 20px;
@@ -244,7 +248,7 @@ section {
 }
 
 .primary-border {
-  border-color: #fce138;
+  border-color: var(--primary-color);
 }
 
 .secondary-border {
@@ -267,7 +271,7 @@ section {
 
 /* WHAT YOU DO STYLES START */
 .steps { 
-  background: #fce138;
+  background: var(--primary-color);
 }
 
 .step {
@@ -334,7 +338,7 @@ section {
   margin: 20px;
   flex: 1;
   background: #024e76;
-  color: #fce138;
+  color: var(--primary-color);
 }
 
 .trainer img {
@@ -390,7 +394,7 @@ section {
 }
 
 .contact-info h3 {
-  color: #fce138;
+  color: var(--primary-color);
   font-size: 32px;
 }
 
@@ -421,7 +425,7 @@ section {
 .contact-form button {
   width: 100%;
   border: none;
-  background: #fce138;
+  background: var(--primary-color);
   color: #024e76;
   text-align: center;
   padding: 15px 0;
@@ -429,11 +433,11 @@ section {
   border-radius: 10px;
 }
 .contact-form button:hover{
-  color: #fce138;
+  color: var(--primary-color);
   background: #39a6b2;
 }
 .contact-info a {
-  color: #fce138;
+  color: var(--primary-color);
 }
 
 
